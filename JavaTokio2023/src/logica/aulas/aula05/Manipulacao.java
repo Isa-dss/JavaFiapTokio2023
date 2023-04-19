@@ -21,7 +21,7 @@ public class Manipulacao {
 		Scanner entrada = new Scanner(System.in);
 
 		String preco = entrada.nextLine();
-		float precofloat = Float.parseFloat(preco); // se usasse o typecast aqui (float) Float.parseFloat(true) não
+		//float precofloat = Float.parseFloat(preco); // se usasse o typecast aqui (float) Float.parseFloat(true) não
 													// daria erro, mesmo que true que esteja como boolan
 		System.out.println(preco);
 

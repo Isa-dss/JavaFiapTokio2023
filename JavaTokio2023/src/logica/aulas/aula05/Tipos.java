@@ -27,7 +27,7 @@ public class Tipos {
 	System.out.println(numero);
 
 	
-
+entrada.close();
 
 
 	}

@@ -9,8 +9,8 @@ public class OperadoresLogicos {
 		boolean logicaE = verificarSenha && verificarEmail;
 		System.out.println(logicaE);
 		
-		boolean logicaOu = true || false;
-		System.out.println(logicaOu);
+//		boolean logicaOu = true || false;
+//		System.out.println(logicaOu);
 		
 		boolean negacao = !true;
 		System.out.println(negacao);
