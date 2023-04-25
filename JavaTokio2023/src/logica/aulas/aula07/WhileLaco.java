@@ -47,6 +47,9 @@ public class WhileLaco {
 		}
 		
  System.out.println("Fim do prograama");
+ 
+ 
+ entrada.close();
 	}
 
 }

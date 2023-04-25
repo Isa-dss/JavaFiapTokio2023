@@ -2,7 +2,7 @@ package logica.aula.exercicios.aula06;
 
 import java.util.Scanner;
 
-public class Exercicios04 {
+public class Exercicio04 {
 	
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner (System.in);
