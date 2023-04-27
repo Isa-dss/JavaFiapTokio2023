@@ -8,7 +8,7 @@ public class Exercico12 {
 			
 			Scanner entrada = new Scanner(System.in);
 			
-		   float aux;
+		   float x;
 
 			System.out.print("Digite o primeiro valor: ");
 			float a = entrada.nextFloat();
@@ -19,16 +19,21 @@ public class Exercico12 {
 			System.out.print("Digite o terceiro valor: ");
 			float c  = entrada.nextFloat();
 			
-			if ((b>a) && (b>c)) {
-				aux = a;
+			if (a<b) {
+				x = a;
 				a=b;
-				b=aux;
-			}else if(c>a) {
-				aux = a;
+				b=x;
+			}if(a<c) {
+				x = a;
 				a=c;
-				c=aux;
+				c=x;
+			}if (a<b) {
+			   x = a;
+			   a=b;
+			   b=x;
 
-			}if (a>=(b+c)){
+			}
+			if (a>=(b+c)){
 				System.out.println("Não forma triangulo");
 			}else {
 				if (a*a == (b*b) + (c*c))

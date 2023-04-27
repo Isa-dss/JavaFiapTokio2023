@@ -9,18 +9,18 @@ public class Exercicio08 {
 		Scanner entrada = new Scanner (System.in);	
 		Double real = entrada.nextDouble();
 		
-		Double dolar = 5.8;
-	    Double euro = 5.56;
-		Double peso = 0.023;
-		Double libra = 6.31;
-		Double iene = 0.038;
+		Double dolar= real*0.2;
+	    Double euro = real*0.18;
+		Double peso = real*44.65;
+		Double libra= real*0.16;
+		Double iene = real*26.95;
 		
 		System.out.println("Esse valor em reais corresponde a:");
-		System.out.println(real*dolar +" dolares americanos");
-		System.out.println(real*euro +" euros");
-		System.out.println(real*peso +" pesos");
-		System.out.println(real*libra +" libras");
-		System.out.println(real*iene +" ienes");
+		System.out.println(dolar +" dolares americanos");
+		System.out.println(euro +" euros");
+		System.out.println(peso +" pesos");
+		System.out.println(libra+ " libras");
+		System.out.println(iene +" ienes");
 
 		
 entrada.close();

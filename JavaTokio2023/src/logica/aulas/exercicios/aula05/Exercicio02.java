@@ -9,17 +9,15 @@ public class Exercicio02 {
 		
 		double c = 15.25;
 		
-		System.out.println(a);
-		System.out.println(b);
-		System.out.println(c);
+		System.out.printf("%d %.2f %.2f \n" , a , b , c);
+		
 		
 		String strA = Integer.toString(a);
 		String strB = Float.toString(b);
 		String strC = Double.toString(c);
 		
-		System.out.println(strA);
-		System.out.println(strB);
-		System.out.println(strC);
+		System.out.printf("%s %s %s \n",strA,strB,strC);
+
 		
 		
 	}
