@@ -18,6 +18,7 @@ public class Exercicio06 {
 		for ( int i =0; i < 10; i++) {
 			int number = random.nextInt();
 			double num = min + number * (max - min);
+			double in = Integer.parseInt(num);
 			
 			
 			System.out.println("O numero sorteado foi: " +num);
